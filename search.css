@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    border-radius: 65px;
+    padding: 70px; 
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3e/Google_2011_logo.png");
+    background-size: contain;
+   
+}
+.buttonxd{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -18%);
+    margin: auto;
+    padding: 20px;
+    }
+input[type=text] 
+{
+border-radius: 40px;
+width: 500px;
+height:45px;
+border:solid;
+border-width: 0.25px;
+border-color: grey;
+font-size:16px;
+outline: none;
+
+}
+button[type=submit]{
+width: 250px;
+height: 45px;
+border-radius: 40px;
+border-width: 0.25px;
+border-color: grey;
+justify-content: center;
+align-items: center;
+
+
+}
+button:hover {
+    background-color: darkgrey;
+}
+#button1, #button2{
+    float:right; display:inline;
+    transform: translate(-50%, 0%);
+margin-top:20px;
+right: 10px;
+width: 150px;
+height: 45px;
+border:solid;
+border-width: 0.25px;
+border-color: grey;
+font-size:12px;
+outline: none;
+padding: 5px;
+gap: 10px;
+margin-right: 10px;
+}
+
+}
